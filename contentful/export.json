@@ -6,190 +6,51 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "id": "person",
-        "type": "ContentType",
-        "createdAt": "2017-05-11T12:04:23.540Z",
-        "updatedAt": "2017-05-18T14:04:51.650Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
-          }
-        },
-        "publishedCounter": 7,
-        "version": 14,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
-          }
-        },
-        "publishedVersion": 13,
-        "firstPublishedAt": "2017-05-11T12:04:23.869Z",
-        "publishedAt": "2017-05-18T14:04:51.628Z"
-      },
-      "displayField": "name",
-      "name": "Person",
-      "description": "",
-      "fields": [
-        {
-          "id": "name",
-          "name": "Name",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "company",
-          "name": "Company",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "shortBio",
-          "name": "Short Bio",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "email",
-          "name": "Email",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "phone",
-          "name": "Phone",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "facebook",
-          "name": "Facebook",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "twitter",
-          "name": "Twitter",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "github",
-          "name": "Github",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "image",
-          "name": "Image",
-          "type": "Link",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
         "id": "blogPost",
         "type": "ContentType",
-        "createdAt": "2017-05-11T12:17:42.862Z",
-        "updatedAt": "2017-05-17T10:55:24.031Z",
+        "createdAt": "2024-05-17T10:58:16.939Z",
+        "updatedAt": "2024-05-17T12:06:03.379Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2024-05-17T12:06:03.379Z",
+        "firstPublishedAt": "2024-05-17T10:58:17.371Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 5,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedVersion": 11,
-        "firstPublishedAt": "2017-05-11T12:17:43.175Z",
-        "publishedAt": "2017-05-17T10:55:24.004Z"
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/content_types/blogPost"
       },
       "displayField": "title",
-      "name": "Blog Post",
-      "description": "",
+      "name": "Article Page",
+      "description": "Blog post content type",
       "fields": [
         {
           "id": "title",
@@ -197,7 +58,19 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "browserTitle",
+          "name": "Browser Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -207,28 +80,30 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
         {
-          "id": "heroImage",
-          "name": "Hero Image",
-          "type": "Link",
+          "id": "publishDate",
+          "name": "Publish Date",
+          "type": "Date",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
+          "omitted": false
         },
         {
-          "id": "description",
-          "name": "Description",
-          "type": "RichText",
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
           "localized": false,
-          "required": true,
-          "validations": [],
+          "required": false,
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -238,406 +113,940 @@
           "type": "RichText",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, and subscript marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
           "disabled": false,
           "omitted": false
         },
         {
-          "id": "author",
-          "name": "Author",
+          "id": "relatedArticles",
+          "name": "Related Articles",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "blogPost"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
           "type": "Link",
           "localized": false,
           "required": false,
           "validations": [
             {
-              "linkContentType": ["person"]
+              "linkContentType": [
+                "tag"
+              ]
             }
           ],
           "disabled": false,
           "omitted": false,
           "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "52nflb5vytwd"
+          }
         },
+        "id": "tag",
+        "type": "ContentType",
+        "createdAt": "2024-05-17T11:57:06.147Z",
+        "updatedAt": "2024-05-17T11:57:06.488Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-05-17T11:57:06.488Z",
+        "firstPublishedAt": "2024-05-17T11:57:06.488Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/content_types/tag"
+      },
+      "displayField": "name",
+      "name": "Tag",
+      "description": "Tag content type for the front-end",
+      "fields": [
         {
-          "id": "publishDate",
-          "name": "Publish Date",
-          "type": "Date",
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
           "disabled": false,
           "omitted": false
         },
         {
-          "id": "tags",
-          "name": "Tags",
-          "type": "Array",
+          "id": "intro",
+          "name": "Intro",
+          "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "52nflb5vytwd"
+          }
+        },
+        "id": "navigationItem",
+        "type": "ContentType",
+        "createdAt": "2024-05-17T12:02:11.755Z",
+        "updatedAt": "2024-05-17T12:02:12.082Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-05-17T12:02:12.082Z",
+        "firstPublishedAt": "2024-05-17T12:02:12.082Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/content_types/navigationItem"
+      },
+      "displayField": "title",
+      "name": "Navigation Item",
+      "description": "Content type for defining a navigation / menu link",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "link",
+          "name": "Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "52nflb5vytwd"
+          }
+        },
+        "id": "navigationMenu",
+        "type": "ContentType",
+        "createdAt": "2024-05-17T12:03:30.455Z",
+        "updatedAt": "2024-05-17T12:03:58.711Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-05-17T12:03:58.711Z",
+        "firstPublishedAt": "2024-05-17T12:03:30.807Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/content_types/navigationMenu"
+      },
+      "displayField": null,
+      "name": "Navigation Menu",
+      "description": "Container content type for a navigation menu",
+      "fields": [
+        {
+          "id": "navigationLinks",
+          "name": "Navigation Links",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false,
           "items": {
-            "type": "Symbol",
+            "type": "Link",
             "validations": [
               {
-                "in": ["general", "javascript", "static-sites"]
+                "linkContentType": [
+                  "navigationItem"
+                ]
               }
-            ]
+            ],
+            "linkType": "Entry"
           }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "52nflb5vytwd"
+          }
+        },
+        "id": "landingPage",
+        "type": "ContentType",
+        "createdAt": "2024-05-17T12:07:59.612Z",
+        "updatedAt": "2024-05-17T13:14:55.889Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-05-17T13:14:55.889Z",
+        "firstPublishedAt": "2024-05-17T12:07:59.991Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/content_types/landingPage"
+      },
+      "displayField": "title",
+      "name": "Landing Page",
+      "description": "Landing page content type - also used for home page",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "browserTitle",
+          "name": "Browser Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": true
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, and subscript marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "relatedArticles",
+          "name": "Displayed Articles",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "blogPost"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "tag"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": true,
+          "linkType": "Entry"
         }
       ]
     }
   ],
+  "tags": [
+  ],
   "editorInterfaces": [
     {
-      "controls": [
-        {
-          "fieldId": "name",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "company",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "shortBio",
-          "widgetId": "richTextEditor"
-        },
-        {
-          "fieldId": "email",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "phone",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "facebook",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "twitter",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "github",
-          "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "image",
-          "widgetId": "assetLinkEditor"
-        }
-      ],
       "sys": {
         "id": "default",
         "type": "EditorInterface",
-        "version": 14,
-        "createdAt": "2017-05-11T12:04:24.145Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
         "space": {
           "sys": {
+            "id": "52nflb5vytwd",
             "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "linkType": "Space"
+          }
+        },
+        "version": 10,
+        "createdAt": "2024-05-17T10:58:17.579Z",
+        "createdBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-05-17T12:06:04.059Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
           }
         },
         "contentType": {
           "sys": {
+            "id": "blogPost",
             "type": "Link",
-            "linkType": "ContentType",
-            "id": "person"
+            "linkType": "ContentType"
           }
         },
-        "updatedAt": "2017-05-18T14:04:52.378Z",
-        "updatedBy": {
+        "environment": {
           "sys": {
+            "id": "master",
             "type": "Link",
-            "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "linkType": "Environment"
           }
         }
-      }
-    },
-    {
+      },
       "controls": [
         {
           "fieldId": "title",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "browserTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "slug",
-          "widgetId": "slugEditor"
-        },
-        {
-          "fieldId": "heroImage",
-          "widgetId": "assetLinkEditor"
-        },
-        {
-          "fieldId": "description",
-          "widgetId": "richTextEditor"
-        },
-        {
-          "fieldId": "body",
-          "widgetId": "richTextEditor"
-        },
-        {
-          "fieldId": "author",
-          "widgetId": "entryLinkEditor"
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "publishDate",
-          "widgetId": "datePicker",
           "settings": {
-            "format": "timeZ",
-            "ampm": "24"
-          }
+            "ampm": "24",
+            "format": "dateonly"
+          },
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "settings": {
+            "helpText": "Used by other listing components which link to the blog page"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "relatedArticles",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "tags",
-          "widgetId": "tagEditor"
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
         }
-      ],
+      ]
+    },
+    {
       "sys": {
         "id": "default",
         "type": "EditorInterface",
-        "version": 12,
-        "createdAt": "2017-05-11T12:17:43.510Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
         "space": {
           "sys": {
+            "id": "52nflb5vytwd",
             "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-05-17T11:57:06.614Z",
+        "createdBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-05-17T11:57:07.133Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
           }
         },
         "contentType": {
           "sys": {
+            "id": "tag",
             "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogPost"
+            "linkType": "ContentType"
           }
         },
-        "updatedAt": "2017-05-17T10:55:25.370Z",
-        "updatedBy": {
+        "environment": {
           "sys": {
+            "id": "master",
             "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "linkType": "Environment"
           }
         }
-      }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "intro",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "52nflb5vytwd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-05-17T12:02:12.229Z",
+        "createdBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-05-17T12:02:12.767Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "navigationItem",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "link",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "52nflb5vytwd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2024-05-17T12:03:30.954Z",
+        "createdBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-05-17T12:03:59.258Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "navigationMenu",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "navigationLinks",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "52nflb5vytwd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2024-05-17T12:08:00.146Z",
+        "createdBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-05-17T13:14:56.621Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "landingPage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "browserTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "settings": {
+            "helpText": "Used by other listing components which link to the blog page"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "relatedArticles",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tags",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
     }
   ],
   "entries": [
     {
+      "metadata": {
+        "tags": [
+        ]
+      },
       "sys": {
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
-        "id": "15jwOBqpxqSAOy2eOO4S0m",
+        "id": "7pLK72IgtCc5o2YY320MXZ",
         "type": "Entry",
-        "createdAt": "2017-05-11T12:04:29.532Z",
-        "updatedAt": "2017-05-18T14:13:14.463Z",
+        "createdAt": "2024-05-17T13:13:43.394Z",
+        "updatedAt": "2024-05-17T15:02:06.244Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-05-17T15:02:06.244Z",
+        "firstPublishedAt": "2024-05-17T15:02:06.244Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedCounter": 15,
-        "version": 190,
+        "publishedCounter": 1,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedVersion": 189,
-        "firstPublishedAt": "2017-05-11T12:06:33.065Z",
-        "publishedAt": "2017-05-18T14:13:14.431Z",
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
         "contentType": {
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "person"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "John Doe"
-        },
-        "title": {
-          "en-US": "Web Developer"
-        },
-        "company": {
-          "en-US": "ACME"
-        },
-        "shortBio": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Research and recommendations for modern stack websites.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              }
-            ]
+            "id": "landingPage"
           }
         },
-        "email": {
-          "en-US": "john@doe.com"
-        },
-        "phone": {
-          "en-US": "0176 / 1234567"
-        },
-        "facebook": {
-          "en-US": "johndoe"
-        },
-        "twitter": {
-          "en-US": "johndoe"
-        },
-        "github": {
-          "en-US": "johndoe"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "7orLdboQQowIUs22KAW4U"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "id": "31TNnjHlfaGUoMOwU0M2og",
-        "type": "Entry",
-        "createdAt": "2017-05-12T09:29:02.336Z",
-        "updatedAt": "2017-05-30T12:55:11.986Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
-          }
-        },
-        "publishedCounter": 13,
-        "version": 319,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
-          }
-        },
-        "publishedVersion": 318,
-        "firstPublishedAt": "2017-05-12T09:30:09.613Z",
-        "publishedAt": "2017-05-30T12:55:11.950Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogPost"
-          }
-        }
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/entries/7pLK72IgtCc5o2YY320MXZ"
       },
       "fields": {
         "title": {
-          "en-US": "Automate with webhooks"
+          "en-US": "Home"
+        },
+        "browserTitle": {
+          "en-US": "Home - Matthew Dresser's Sitecore Blog"
         },
         "slug": {
-          "en-US": "automate-with-webhooks"
-        },
-        "heroImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4shwYI3POEGkw0Eg6kcyaQ"
-            }
-          }
-        },
-        "description": {
-          "en-US": {
-            "data": {
-            },
-            "content": [
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              }
-            ],
-            "nodeType": "document"
-          }
+          "en-US": "home"
         },
         "body": {
           "en-US": {
@@ -646,127 +1055,13 @@
             },
             "content": [
               {
-                "nodeType": "heading-2",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "What are webhooks?",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
                 "nodeType": "paragraph",
                 "data": {
                 },
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "The webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "heading-2",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "How do I configure a webhook?",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Go to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "heading-2",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Why do I get an old version in the CDA?",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "As the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Extracted from the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  },
-                  {
-                    "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com/faq/webhooks/"
-                    },
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "Webhooks FAQ",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": ".",
+                    "value": "x",
                     "marks": [
                     ],
                     "data": {
@@ -776,110 +1071,192 @@
               }
             ]
           }
-        },
-        "author": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "15jwOBqpxqSAOy2eOO4S0m"
-            }
-          }
-        },
-        "publishDate": {
-          "en-US": "2017-05-12T00:00+02:00"
-        },
-        "tags": {
-          "en-US": ["javascript"]
         }
       }
     },
     {
+      "metadata": {
+        "tags": [
+        ]
+      },
       "sys": {
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
-        "id": "3K9b0esdy0q0yGqgW2g6Ke",
+        "id": "GJujQNu7zVz2mmbGIFicd",
         "type": "Entry",
-        "createdAt": "2017-05-15T11:51:15.331Z",
-        "updatedAt": "2017-05-30T09:48:09.568Z",
+        "createdAt": "2024-05-17T13:15:57.560Z",
+        "updatedAt": "2024-05-17T15:02:06.226Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-05-17T15:02:06.226Z",
+        "firstPublishedAt": "2024-05-17T15:02:06.226Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedCounter": 8,
-        "version": 722,
+        "publishedCounter": 1,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedVersion": 721,
-        "firstPublishedAt": "2017-05-15T11:51:40.463Z",
-        "publishedAt": "2017-05-30T09:48:09.520Z",
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
         "contentType": {
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "blogPost"
+            "id": "landingPage"
           }
-        }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/entries/GJujQNu7zVz2mmbGIFicd"
       },
       "fields": {
         "title": {
-          "en-US": "Hello world"
+          "en-US": "Sitecore"
+        },
+        "browserTitle": {
+          "en-US": "Sitecore Articles"
         },
         "slug": {
-          "en-US": "hello-world"
+          "en-US": "sitecore"
         },
-        "heroImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "6Od9v3wzLOysiMum0Wkmme"
-            }
-          }
+        "summary": {
+          "en-US": "Browse all Sitecore related articles here."
         },
-        "description": {
+        "body": {
           "en-US": {
+            "nodeType": "document",
             "data": {
             },
             "content": [
               {
+                "nodeType": "paragraph",
                 "data": {
                 },
                 "content": [
                   {
-                    "data": {
-                    },
+                    "nodeType": "text",
+                    "value": "x",
                     "marks": [
                     ],
-                    "value": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
-                    "nodeType": "text"
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
               }
-            ],
-            "nodeType": "document"
+            ]
           }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "52nflb5vytwd"
+          }
+        },
+        "id": "7mowNG6OUSgDjRflctAva5",
+        "type": "Entry",
+        "createdAt": "2024-05-17T13:16:56.056Z",
+        "updatedAt": "2024-05-17T15:02:06.207Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2024-05-17T15:02:06.207Z",
+        "firstPublishedAt": "2024-05-17T15:02:06.207Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "landingPage"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/entries/7mowNG6OUSgDjRflctAva5"
+      },
+      "fields": {
+        "title": {
+          "en-US": "ASP.NET MVC"
+        },
+        "browserTitle": {
+          "en-US": "ASP.NET MVC Articles"
+        },
+        "slug": {
+          "en-US": "asp.net-mvc"
+        },
+        "summary": {
+          "en-US": "Browse all ASP.NET MVC related articles here."
         },
         "body": {
           "en-US": {
@@ -895,561 +1272,7 @@
                     },
                     "marks": [
                     ],
-                    "value": "These is your very first content with Contentful, pulled in JSON format using the ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/references/content-delivery-api/"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Content Delivery API",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ". Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Your first steps",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-2"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Building with Contentful is easy. First take a moment to get ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/r/knowledgebase/content-modelling-basics"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "the basics of content modelling",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", which you can set up in the ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://app.contentful.com/"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Contentful Web app",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ". Once you get that, feel free to drop by the ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Documentation",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": " to learn a bit more about how to build your app with Contentful, in particular the ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/concepts/apis/"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "API basics",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": " and each one of our four APIs, as shown below.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Content Delivery API",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-3"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "The ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/references/content-delivery-api/"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Content Delivery API",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": " (CDA), available at ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "code"
-                      }
-                    ],
-                    "value": "cdn.contentful.com",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "The API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Content Management API",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-3"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "The ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/references/content-management-api/"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Content Management API",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": " (CMA), available at ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "code"
-                      }
-                    ],
-                    "value": "api.contentful.com",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "data": {
-                            },
-                            "marks": [
-                            ],
-                            "value": "Automatic imports from different CMSes like WordPress or Drupal.",
-                            "nodeType": "text"
-                          }
-                        ],
-                        "nodeType": "paragraph"
-                      }
-                    ],
-                    "nodeType": "list-item"
-                  },
-                  {
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "data": {
-                            },
-                            "marks": [
-                            ],
-                            "value": "Integration with other backend systems, such as an e-commerce shop.",
-                            "nodeType": "text"
-                          }
-                        ],
-                        "nodeType": "paragraph"
-                      }
-                    ],
-                    "nodeType": "list-item"
-                  },
-                  {
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "data": {
-                            },
-                            "marks": [
-                            ],
-                            "value": "Building custom editing experiences. We built the ",
-                            "nodeType": "text"
-                          },
-                          {
-                            "data": {
-                              "uri": "https://app.contentful.com/"
-                            },
-                            "content": [
-                              {
-                                "data": {
-                                },
-                                "marks": [
-                                ],
-                                "value": "Contentful Web app",
-                                "nodeType": "text"
-                              }
-                            ],
-                            "nodeType": "hyperlink"
-                          },
-                          {
-                            "data": {
-                            },
-                            "marks": [
-                            ],
-                            "value": " on top of this API.",
-                            "nodeType": "text"
-                          }
-                        ],
-                        "nodeType": "paragraph"
-                      }
-                    ],
-                    "nodeType": "list-item"
-                  }
-                ],
-                "nodeType": "unordered-list"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Preview API",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-3"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "The ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Content Preview API",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", available at ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "code"
-                      }
-                    ],
-                    "value": "preview.contentful.com",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Images API",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-3"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "The ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/concepts/apis/#images-api"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Images API",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", available at ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "code"
-                      }
-                    ],
-                    "value": "images.contentful.com",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+                    "value": "x",
                     "nodeType": "text"
                   }
                 ],
@@ -1458,88 +1281,89 @@
             ],
             "nodeType": "document"
           }
-        },
-        "author": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "15jwOBqpxqSAOy2eOO4S0m"
-            }
-          }
-        },
-        "publishDate": {
-          "en-US": "2017-05-15T00:00+02:00"
-        },
-        "tags": {
-          "en-US": ["general"]
         }
       }
     },
     {
+      "metadata": {
+        "tags": [
+        ]
+      },
       "sys": {
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
-        "id": "2PtC9h1YqIA6kaUaIsWEQ0",
+        "id": "4lGbObysvUsb8jr4Xrc5yx",
         "type": "Entry",
-        "createdAt": "2017-05-15T12:01:00.579Z",
-        "updatedAt": "2017-05-30T12:31:34.521Z",
+        "createdAt": "2024-05-17T13:18:29.331Z",
+        "updatedAt": "2024-05-17T15:02:06.188Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2024-05-17T15:02:06.188Z",
+        "firstPublishedAt": "2024-05-17T15:02:06.188Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedCounter": 7,
-        "version": 218,
+        "publishedCounter": 1,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "2AAFsI4st4sZPlF1LFT13q"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "publishedVersion": 217,
-        "firstPublishedAt": "2017-05-15T12:01:52.543Z",
-        "publishedAt": "2017-05-30T12:31:34.481Z",
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
         "contentType": {
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "blogPost"
+            "id": "landingPage"
           }
-        }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/entries/4lGbObysvUsb8jr4Xrc5yx"
       },
       "fields": {
         "title": {
-          "en-US": "Static sites are great"
+          "en-US": "DIY EV Conversion Blog"
+        },
+        "browserTitle": {
+          "en-US": "DIY EV Conversion Blog"
         },
         "slug": {
-          "en-US": "static-sites-are-great"
+          "en-US": "diy-ev-conversion"
         },
-        "heroImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4NzwDSDlGECGIiokKomsyI"
-            }
-          }
+        "summary": {
+          "en-US": "This part of my blog is dedicated to (DIY) electric vehicle conversions."
         },
-        "description": {
+        "body": {
           "en-US": {
             "data": {
             },
@@ -1553,7 +1377,7 @@
                     },
                     "marks": [
                     ],
-                    "value": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+                    "value": "x",
                     "nodeType": "text"
                   }
                 ],
@@ -1562,6 +1386,87 @@
             ],
             "nodeType": "document"
           }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "52nflb5vytwd"
+          }
+        },
+        "id": "3RKHW6qmLlrHVccs1SF2Ht",
+        "type": "Entry",
+        "createdAt": "2024-05-17T13:20:27.523Z",
+        "updatedAt": "2024-05-17T15:02:06.153Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-05-17T15:02:06.153Z",
+        "firstPublishedAt": "2024-05-17T15:02:06.153Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "landingPage"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/52nflb5vytwd/environments/master/entries/3RKHW6qmLlrHVccs1SF2Ht"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Meta"
+        },
+        "browserTitle": {
+          "en-US": "Meta - Where I blog about building my blog"
+        },
+        "slug": {
+          "en-US": "meta"
+        },
+        "summary": {
+          "en-US": "Meta - Where I blog about building my blog"
         },
         "body": {
           "en-US": {
@@ -1570,309 +1475,13 @@
             },
             "content": [
               {
-                "nodeType": "heading-2",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "The case for the static site generator",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
                 "nodeType": "paragraph",
                 "data": {
                 },
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "More and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "It just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Moreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "heading-2",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Content APIs to the rescue",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "An alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  },
-                  {
-                    "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com/r/knowledgebase/content-as-a-service/"
-                    },
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "Content Management as a Service (CMaaS)",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": " world, with a content API to deliver all your content. That way, you get the all the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  },
-                  {
-                    "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms"
-                    },
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "benefits of content management features",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": " while still being able to embrace the static site generator mantra.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "It so happens that Contentful is offering just that kind of content API. A service that",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "unordered-list",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "list-item",
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "nodeType": "paragraph",
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "nodeType": "text",
-                            "value": "from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "list-item",
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "nodeType": "paragraph",
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "nodeType": "text",
-                            "value": "offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "list-item",
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "nodeType": "paragraph",
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "nodeType": "text",
-                            "value": "separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "list-item",
-                    "data": {
-                    },
-                    "content": [
-                      {
-                        "nodeType": "paragraph",
-                        "data": {
-                        },
-                        "content": [
-                          {
-                            "nodeType": "text",
-                            "value": "offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Extracted from the article ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  },
-                  {
-                    "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/"
-                    },
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "CMS-functionality for static site generators",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": ". Read more about the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  },
-                  {
-                    "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/tools/staticsitegenerators/"
-                    },
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "static site generators supported by Contentful",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": ".",
+                    "value": "x",
                     "marks": [
                     ],
                     "data": {
@@ -1882,282 +1491,15 @@
               }
             ]
           }
-        },
-        "author": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "15jwOBqpxqSAOy2eOO4S0m"
-            }
-          }
-        },
-        "publishDate": {
-          "en-US": "2017-05-16T00:00+02:00"
-        },
-        "tags": {
-          "en-US": ["javascript", "static-sites"]
         }
       }
     }
   ],
   "assets": [
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "id": "7orLdboQQowIUs22KAW4U",
-        "type": "Asset",
-        "createdAt": "2017-05-11T13:04:42.667Z",
-        "updatedAt": "2017-05-16T09:29:04.154Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedCounter": 3,
-        "version": 56,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedVersion": 55,
-        "firstPublishedAt": "2017-05-11T13:05:17.053Z",
-        "publishedAt": "2017-05-16T09:29:04.140Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Sparkler"
-        },
-        "description": {
-          "en-US": "John with Sparkler"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/28p9vvm1oxuw/7orLdboQQowIUs22KAW4U/a97cd3b3415b51c5facfa6f4d184b650/matt-palmer-254999.jpg",
-            "details": {
-              "size": 2293094,
-              "image": {
-                "width": 3000,
-                "height": 2000
-              }
-            },
-            "fileName": "matt-palmer-254999.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "id": "6Od9v3wzLOysiMum0Wkmme",
-        "type": "Asset",
-        "createdAt": "2017-05-15T12:05:53.234Z",
-        "updatedAt": "2017-05-15T13:36:58.905Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 22,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedVersion": 21,
-        "firstPublishedAt": "2017-05-15T12:06:38.633Z",
-        "publishedAt": "2017-05-15T13:36:58.888Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Woman with black hat"
-        },
-        "description": {
-          "en-US": "Woman wearing a black hat"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/28p9vvm1oxuw/6Od9v3wzLOysiMum0Wkmme/95675d379a1284015a8210ca66cc53a5/cameron-kirby-88711.jpg",
-            "details": {
-              "size": 7316629,
-              "image": {
-                "width": 3000,
-                "height": 2000
-              }
-            },
-            "fileName": "cameron-kirby-88711.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "id": "4NzwDSDlGECGIiokKomsyI",
-        "type": "Asset",
-        "createdAt": "2017-05-15T12:33:11.841Z",
-        "updatedAt": "2017-05-15T12:33:50.816Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 21,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedVersion": 20,
-        "firstPublishedAt": "2017-05-15T12:33:50.801Z",
-        "publishedAt": "2017-05-15T12:33:50.801Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "City"
-        },
-        "description": {
-          "en-US": "City pictured from the sky"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/28p9vvm1oxuw/4NzwDSDlGECGIiokKomsyI/d04a5154fa2e2ab02857950639325684/denys-nevozhai-100695.jpg",
-            "details": {
-              "size": 15736986,
-              "image": {
-                "width": 3992,
-                "height": 2992
-              }
-            },
-            "fileName": "denys-nevozhai-100695.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "id": "4shwYI3POEGkw0Eg6kcyaQ",
-        "type": "Asset",
-        "createdAt": "2017-05-15T12:34:08.279Z",
-        "updatedAt": "2017-05-15T12:35:08.308Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 38,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "publishedVersion": 37,
-        "firstPublishedAt": "2017-05-15T12:35:08.292Z",
-        "publishedAt": "2017-05-15T12:35:08.292Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "Man in the fields"
-        },
-        "description": {
-          "en-US": "Tattooed man walking in a field"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.contentful.com/28p9vvm1oxuw/4shwYI3POEGkw0Eg6kcyaQ/eeaa6df85fb4452ea69ad18c98ffc015/felix-russell-saw-112140.jpg",
-            "details": {
-              "size": 4539181,
-              "image": {
-                "width": 2500,
-                "height": 1667
-              }
-            },
-            "fileName": "felix-russell-saw-112140.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    }
   ],
   "locales": [
     {
-      "name": "U.S. English",
+      "name": "English (United States)",
       "code": "en-US",
       "fallbackCode": null,
       "default": true,
@@ -2166,35 +1508,44 @@
       "optional": false,
       "sys": {
         "type": "Locale",
-        "id": "3Bb4qrZtqLzwN35dmTQ6a2",
-        "version": 0,
+        "id": "6yYSHOxSyG9YzO3uz574it",
+        "version": 1,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "b0729666-7150-40d1-8440-eb4b65f9aec5"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "createdAt": "2017-05-11T12:01:17Z",
+        "createdAt": "2024-05-17T10:19:17Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "updatedAt": "2017-05-11T12:01:17Z"
+        "updatedAt": "2024-05-17T10:19:17Z"
       }
     }
   ],
-  "webhooks": [],
+  "webhooks": [
+  ],
   "roles": [
     {
       "name": "Author",
@@ -2202,7 +1553,9 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -2218,7 +1571,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -2234,7 +1589,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -2250,7 +1607,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -2266,7 +1625,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -2282,78 +1643,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": []
-      },
-      "sys": {
-        "type": "Role",
-        "id": "3Bc1MhEh97SAPAubIwDlgq",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "createdAt": "2017-05-11T12:01:17Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedAt": "2017-05-11T12:01:17Z"
-      }
-    },
-    {
-      "name": "Developer",
-      "description": "Allows reading Entries and managing API Keys",
-      "policies": [
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -2369,37 +1661,47 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": "all"
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
       },
       "sys": {
         "type": "Role",
-        "id": "3Bdf87ZgV69DZme5Pll2MC",
+        "id": "6znTYyKhF8xJRdawBI80dX",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "createdAt": "2017-05-11T12:01:17Z",
+        "createdAt": "2024-05-17T10:19:18Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "updatedAt": "2017-05-11T12:01:17Z"
+        "updatedAt": "2024-05-17T10:19:18Z"
       }
     },
     {
@@ -2440,275 +1742,58 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": []
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
       },
       "sys": {
         "type": "Role",
-        "id": "3BehG3o7XDtAd7i5NLYesC",
+        "id": "6zoqTCGYRqa8mwnksg62id",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "createdAt": "2017-05-11T12:01:17Z",
+        "createdAt": "2024-05-17T10:19:18Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "updatedAt": "2017-05-11T12:01:17Z"
+        "updatedAt": "2024-05-17T10:19:18Z"
       }
     },
     {
-      "name": "Freelancer",
-      "description": "Allows only editing of content they created themselves",
-      "policies": [
-        {
-          "effect": "allow",
-          "actions": ["create"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["create"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              },
-              {
-                "equals": [
-                  {
-                    "doc": "sys.createdBy.sys.id"
-                  },
-                  "User.current()"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              },
-              {
-                "equals": [
-                  {
-                    "doc": "sys.createdBy.sys.id"
-                  },
-                  "User.current()"
-                ]
-              },
-              {
-                "paths": [
-                  {
-                    "doc": "fields.%.%"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["delete"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              },
-              {
-                "equals": [
-                  {
-                    "doc": "sys.createdBy.sys.id"
-                  },
-                  "User.current()"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              },
-              {
-                "equals": [
-                  {
-                    "doc": "sys.createdBy.sys.id"
-                  },
-                  "User.current()"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              },
-              {
-                "equals": [
-                  {
-                    "doc": "sys.createdBy.sys.id"
-                  },
-                  "User.current()"
-                ]
-              },
-              {
-                "paths": [
-                  {
-                    "doc": "fields.%.%"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["delete"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              },
-              {
-                "equals": [
-                  {
-                    "doc": "sys.createdBy.sys.id"
-                  },
-                  "User.current()"
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": []
-      },
-      "sys": {
-        "type": "Role",
-        "id": "3BfBcsMyyk2vTHgSvVE95c",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "createdAt": "2017-05-11T12:01:17Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedAt": "2017-05-11T12:01:17Z"
-      }
-    },
-    {
-      "name": "Translator 1",
+      "name": "Translator",
       "description": "Allows editing of localized fields in the specified language",
       "policies": [
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -2724,7 +1809,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -2740,7 +1827,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -2763,124 +1852,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              },
-              {
-                "paths": [
-                  {
-                    "doc": "fields.%.%"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": []
-      },
-      "sys": {
-        "type": "Role",
-        "id": "3BgX7gCjpTS6ToMGo7tN6m",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "createdAt": "2017-05-11T12:01:17Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedAt": "2017-05-11T12:01:17Z"
-      }
-    },
-    {
-      "name": "Translator 2",
-      "description": "Allows editing of localized fields in the specified language",
-      "policies": [
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              },
-              {
-                "paths": [
-                  {
-                    "doc": "fields.%.%"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -2903,154 +1877,47 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": []
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
       },
       "sys": {
         "type": "Role",
-        "id": "3Bi3CWAo8KktAQXSv6vl66",
+        "id": "6zoQzdpmebuiQxqr0eRr3z",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "28p9vvm1oxuw"
+            "id": "52nflb5vytwd"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "createdAt": "2017-05-11T12:01:17Z",
+        "createdAt": "2024-05-17T10:19:18Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
+            "id": "2xthEnsUAmbsJT9Iz1WrJQ"
           }
         },
-        "updatedAt": "2017-05-11T12:01:17Z"
-      }
-    },
-    {
-      "name": "Translator 3",
-      "description": "Allows editing of localized fields in the specified language",
-      "policies": [
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["read"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              },
-              {
-                "paths": [
-                  {
-                    "doc": "fields.%.%"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": ["update"],
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              },
-              {
-                "paths": [
-                  {
-                    "doc": "fields.%.%"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": []
-      },
-      "sys": {
-        "type": "Role",
-        "id": "3BjfQSC3N7sqbZuUQmRC2a",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "28p9vvm1oxuw"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "createdAt": "2017-05-11T12:01:17Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "066RqBikAjzKy0SWUEtFvH"
-          }
-        },
-        "updatedAt": "2017-05-11T12:01:17Z"
+        "updatedAt": "2024-05-17T10:19:18Z"
       }
     }
   ]
